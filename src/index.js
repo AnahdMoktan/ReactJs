@@ -2,9 +2,11 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Cards from "./Cards";
 import './index.css';
+import Header from "./Header";
 
 ReactDOM.render(
   <>
+  <Header/>
     <h1>List of my favourite Netflix Series</h1>
     <Cards 
       imgsrc="https://i.cbc.ca/1.4094475.1493675267!/cpImage/httpImage/image.jpg_gen/derivatives/original_1180/tv-anne-netflix-20170501.jpg"

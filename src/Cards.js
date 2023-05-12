@@ -11,7 +11,6 @@ function Cards(props){
             <a href={props.link} target="_blank">
               <button>Watch Now</button>
             </a>
-  
           </div>
         </div>
   
